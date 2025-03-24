@@ -6,7 +6,7 @@ import axios from "axios"
 import Navbar from "../components/Navbar"
 import Footer from "../components/Footer"
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000"
+const API_URL = "https://merccyclone-ph.hf.space"
 
 interface OrderItem {
   product_id: string
