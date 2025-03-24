@@ -61,7 +61,7 @@ function OrdersContent() {
   } = useQuery({
     queryKey: ["orders"],
     queryFn: async () => {
-      const response = await axios.get(`${API_URL}/orders`)
+      const response = await axios.get(`${API_URL}/orders/`)
       return response.data
     },
   })
